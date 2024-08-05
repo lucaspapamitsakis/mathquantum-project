@@ -48,7 +48,7 @@ I also found the article *Quantum random number generation* very helpful, as the
 
 <ins>Mathematical & Quantum Tools/Techniques</ins>
 
-The necessary mathematical tools to approach this project are probability and statistics, as we need to analyze the probability distribution of the number generator outputs. Linear Algebra is also hidden within this problem, as preparing the necessary qubit states that lead to random bit measurements stems from unitary matrix operations on the starting qubit state. The fundamental quantum mechanics concepts involved in this work are superposition and measurement, as we take advantage of the qubit's superposition between the \\(|0>\\) and \\(|1>\\) states to create a random distibution of measuring a 0 or 1 as the output bit.
+The necessary mathematical tools to approach this project are probability and statistics, as we need to analyze the probability distribution of the number generator outputs. Linear Algebra is also hidden within this problem, as preparing the necessary qubit states that lead to random bit measurements stems from unitary matrix operations on the starting qubit state. The fundamental quantum mechanics concepts involved in this work are superposition and measurement, as we take advantage of the qubit's superposition between the \\(a+bi\\) and \\(i\\) states to create a random distibution of measuring a 0 or 1 as the output bit.
 
 The code sample for my mini number generator can be found [here](https://colab.research.google.com/drive/1RzHvUcaCdU4DLMN4EsDXW755mJCEx-3u#scrollTo=Jz4td9jgiplh).
 
@@ -56,4 +56,3 @@ The code sample for my mini number generator can be found [here](https://colab.r
 <ins>Goals</ins>
 
 Through this mini-project, I’ve explored how qubits are inherently random when placed into an equal superposition, and I learned more about the programming aspect of quantum computing. I would like to implement my quantum gate bit generation in video games such as Pong or Flappy Bird, where the player is supposed to construct a quantum circuit in order to make the character move. In the future, I would like to research the intersection between quantum computing and machine learning. To reach this point of expertise, I would like to build my knowledge of composing quantum algorithms via circuits and become more fluent in quantum programming libraries.
-
