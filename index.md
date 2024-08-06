@@ -33,7 +33,7 @@ I have enjoyed indulging in the mathematics behind qubits and quantum gates thro
 
 Here was a video I found particularly enlightening about Quantum Random Number Generation:
 
-<iframe width="1240" height="625" src="https://www.youtube.com/embed/KXDxFCRgPoQ" title="Quantum Random Number Generation - Do we really need it?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1040" height="625" src="https://www.youtube.com/embed/KXDxFCRgPoQ" title="Quantum Random Number Generation - Do we really need it?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <br /> I learned that classical random number generators create pseudo-random numbers, which is suitable for most practical purposes, but when it comes to cryptography and the generation of keys, it may not be the most ideal.
 
