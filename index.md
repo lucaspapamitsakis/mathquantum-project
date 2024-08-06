@@ -55,3 +55,5 @@ The code sample for my mini number generator can be found [here](https://colab.r
 <br />  <ins>Goals</ins>
 
 Through this mini-project, I’ve explored how qubits are inherently random when placed into an equal superposition, and I learned more about the programming aspect of quantum computing. I would like to implement my quantum gate bit generation in video games such as Pong or Flappy Bird, where the player is supposed to construct a quantum circuit in order to make the character move. In the future, I would like to research the intersection between quantum computing and machine learning. To reach this point of expertise, I would like to build my knowledge of composing quantum algorithms via circuits and become more fluent in quantum programming libraries.
+
+![QPong](https://www.lexaloffle.com/media/38844/qpong%20p8_0.gif)
