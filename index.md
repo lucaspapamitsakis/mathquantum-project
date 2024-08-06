@@ -31,13 +31,13 @@ How can the properties of quantum mechanics be utilized to generate truly random
 
 I have enjoyed indulging in the mathematics behind qubits and quantum gates throughout the MathQuantum Fellowship and saw this opportunity to familiarize myself with the various technical aspects of quantum computing. Thus, I wanted to apply my knowledge to a simple project and better understand the properties of qubits and quantum gates.
 
-Here was a video I found particularly enlightening about Quantum Random Number Generation:
+Here is a video I found particularly enlightening about Quantum Random Number Generation:
 
-<iframe width="1040" height="575" src="https://www.youtube.com/embed/KXDxFCRgPoQ" title="Quantum Random Number Generation - Do we really need it?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1040" height="595" src="https://www.youtube.com/embed/KXDxFCRgPoQ" title="Quantum Random Number Generation - Do we really need it?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <br /> I learned that classical random number generators create pseudo-random numbers, which is suitable for most practical purposes, but when it comes to cryptography and the generation of keys, it may not be the most ideal.
 
-Another comprehensive resource I've found helpful in the search of randomness was *A Comprehensive Review of Quantum Random Number Generators: Concepts, Classification and the Origin of Randomness*, which detailed how some Quantum Random Number Generators spawned numbers from radioactivity and electronic circuit noise[^1].
+Another comprehensive resource I've found helpful in the search for randomness was *A Comprehensive Review of Quantum Random Number Generators: Concepts, Classification and the Origin of Randomness*, which detailed how some Quantum Random Number Generators spawned numbers from radioactivity and electronic circuit noise[^1].
 
 I also found the article *Quantum random number generation* very helpful, as the authors delved into the specifics of how randomness can be calculated through entropy and the several methods of preparing random quantum states[^2].
 
@@ -47,7 +47,7 @@ I also found the article *Quantum random number generation* very helpful, as the
 
 <br />  <ins>Mathematical & Quantum Tools/Techniques</ins>
 
-The necessary mathematical tools to approach this project are probability and statistics, as we need to analyze the probability distribution of the number generator outputs. Linear Algebra is also hidden within this problem, as preparing the necessary qubit states that lead to random bit measurements stems from unitary matrix operations on the starting qubit state. The fundamental quantum mechanics concepts involved in this work are superposition and measurement, as we take advantage of the qubit's superposition between the &#124;0> and &#124;1> states to create a random distibution of measuring a 0 or 1 as the output bit.
+The necessary mathematical tools to approach this project are probability and statistics, as we need to analyze the probability distribution of the number generator outputs. Linear Algebra is also hidden within this problem, as preparing the necessary qubit states that lead to random bit measurements stems from unitary matrix operations on the starting qubit state. The fundamental quantum mechanics concepts involved in this work are superposition and measurement, as we take advantage of the qubit's superposition between the &#124;0> and &#124;1> states to create a random distribution of measuring a 0 or 1 as the output bit.
 
 The code sample for my mini number generator can be found [here](https://colab.research.google.com/drive/1RzHvUcaCdU4DLMN4EsDXW755mJCEx-3u#scrollTo=Jz4td9jgiplh).
 
